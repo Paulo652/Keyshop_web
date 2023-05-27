@@ -183,3 +183,31 @@ footer {
 #contacto {
   padding-bottom: 10px;
 }
+
+#categorias-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.categoria {
+  width: 60%;
+  margin: 10px;
+  text-align: center;
+}
+
+.categoria img {
+  width: 100%;
+  height: auto;
+}
+
+.categoria h3 {
+  margin-top: 10px;
+}
+.categoria button {
+  background-color: #1553ff;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
