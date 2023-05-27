@@ -1,0 +1,185 @@
+/* ------ HEADER -------*/
+header {
+  background-color: #673b81c4;
+}
+.logo_key {
+  width: 400px; 
+}
+@media screen and (max-width: 600px) {
+  .logo_key{
+    width: 200px;
+  }
+}
+
+  
+/*----- MAIN ------*//*
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+
+main ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+main li {
+  width: calc((100% / 3) - 20px);
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #f2f2f2;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+  order: 2;
+}
+
+main li img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+} 
+
+main li h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+main li p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+main li a {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #000000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+main li a:hover {
+  background-color: #333;
+}
+
+.buttons {
+  display: flex;
+  border-radius: 50%;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.buttons a {
+  display: block;
+  width: 45%;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+.buttons a:hover {
+  background-color: #333;
+}
+
+/* Para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  main li {
+    width: calc((100% / 2) - 20px);
+  }
+}
+*/
+/*-----FOOTER------*/
+footer {
+  background-color: #673b81c4;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.container_footer {
+  padding: 25px;
+
+  background-color: #9351b98e ;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.logo {
+  width: 150px;
+  height: auto;
+}
+.logo img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.logo h3 {
+  margin: 0;
+  color: #190130;
+}
+.links h4,.newsletter h4 {
+  color: #0e031a;
+}
+.links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.links li {
+  margin-bottom: 10px;
+}
+
+.links a {
+  color: #27043b;
+  text-decoration: none;
+}
+
+
+.newsletter form {
+  display: flex;
+  align-items: center;
+}
+
+.newsletter input[type="email"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.newsletter button[type="submit"] {
+  padding: 10px;
+  background-color: #2c0353;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease;
+}
+
+.newsletter button[type="submit"]:hover {
+  background-color: #493261;
+}
+
+#contacto {
+  padding-bottom: 10px;
+}
