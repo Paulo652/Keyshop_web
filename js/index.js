@@ -45,28 +45,28 @@ window.addEventListener("load", () => {
         });
 
     // Obtener el elemento del carrusel
-var carousel = document.getElementById("myCarousel");
+    var carousel = document.getElementById("myCarousel");
 
-// Obtener el elemento que contiene los indicadores
-var indicatorsContainer = carousel.querySelector(".carousel-indicators");
+    // Obtener el elemento que contiene los indicadores
+    var indicatorsContainer = carousel.querySelector(".carousel-indicators");
 
-// Obtener los elementos de los slides
-var slides = carousel.querySelectorAll(".carousel-inner .carousel-item");
+    // Obtener los elementos de los slides
+    var slides = carousel.querySelectorAll(".carousel-inner .carousel-item");
 
-// Crear los botones indicadores
-for (var i = 0; i < slides.length; i++) {
-    var button = document.createElement("button");
-    button.type = "button";
-    button.setAttribute("data-bs-target", "#myCarousel");
-    button.setAttribute("data-bs-slide-to", i.toString());
-    if (i === 0) {
-        button.classList.add("active");
-        button.setAttribute("aria-current", "true");
+    // Crear los botones indicadores
+    for (var i = 0; i < slides.length; i++) {
+        var button = document.createElement("button");
+        button.type = "button";
+        button.setAttribute("data-bs-target", "#myCarousel");
+        button.setAttribute("data-bs-slide-to", i.toString());
+        if (i === 0) {
+            button.classList.add("active");
+            button.setAttribute("aria-current", "true");
+        }
+        indicatorsContainer.appendChild(button);
     }
-    indicatorsContainer.appendChild(button);
-}
 
-//-----------------------------------------------------------------------------//
+    //-----------------------------------------------------------------------------//
 
 
 
