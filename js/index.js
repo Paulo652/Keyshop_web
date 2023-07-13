@@ -1,13 +1,13 @@
-bd_prods = [
-    { "sku": "01", "nombre": "Guffercty kred GK68 65 %", "precio": "$55.000", "descuento": "$70.000", "categoria": "teclados", "imagen": "teclado3.png", "valoraciones": "15" },
-    { "sku": "02", "nombre": "Teclado Rk61 HOTSWAP (SWITCH RED)", "precio": "$80.000", "descuento": "$90.000", "categoria": "teclados", "imagen": "teclado2.png", "valoraciones": "15" },
-    { "sku": "03", "nombre": "Hype Legend Rebel Up", "precio": "$90.000", "descuento": "$120.000", "categoria": "teclados", "imagen": "teclado4.png", "valoraciones": "15" },
-    { "sku": "04", "nombre": "Kawaii Keeb 2.0 Underglow RGB 60%", "precio": "$225.000", "descuento": "$250.000", "categoria": "teclados", "imagen": "kawaiikeeb.png", "valoraciones": "15" },
-    { "sku": "05", "nombre": "GMK Analog Dreams R2 X Salvun Keycap", "precio": "$55.990", "descuento": "$70.000", "categoria": "keycaps", "imagen": "gmkanalog.png", "valoraciones": "15" },
-    { "sku": "06", "nombre": "Keycaps Darling (Doubleshot clone)", "precio": "$25.000", "descuento": "$48.000", "categoria": "keycaps", "imagen": "keycapsdarling.jpg", "valoraciones": "15" },
-    { "sku": "07", "nombre": "Kuma 60%", "precio": "$160.000", "descuento": "$180.000", "categoria": "teclados", "imagen": "imgs/kuma60.jpg", "valoraciones": "15" },
-    { "sku": "08", "nombre": "YMD75 V3 QMK - JAPANESE 75%", "precio": "$180.000", "descuento": "$200.000", "categoria": "teclados", "imagen": "YMD75V3.png", "valoraciones": "15" },
-];
+// bd_prods = [
+//     { "sku": "01", "nombre": "Guffercty kred GK68 65 %", "precio": "$55.000", "descuento": "$70.000", "categoria": "teclados", "imagen": "teclado3.png", "valoraciones": "15" },
+//     { "sku": "02", "nombre": "Teclado Rk61 HOTSWAP (SWITCH RED)", "precio": "$80.000", "descuento": "$90.000", "categoria": "teclados", "imagen": "teclado2.png", "valoraciones": "15" },
+//     { "sku": "03", "nombre": "Hype Legend Rebel Up", "precio": "$90.000", "descuento": "$120.000", "categoria": "teclados", "imagen": "teclado4.png", "valoraciones": "15" },
+//     { "sku": "04", "nombre": "Kawaii Keeb 2.0 Underglow RGB 60%", "precio": "$225.000", "descuento": "$250.000", "categoria": "teclados", "imagen": "kawaiikeeb.png", "valoraciones": "15" },
+//     { "sku": "05", "nombre": "GMK Analog Dreams R2 X Salvun Keycap", "precio": "$55.990", "descuento": "$70.000", "categoria": "keycaps", "imagen": "gmkanalog.png", "valoraciones": "15" },
+//     { "sku": "06", "nombre": "Keycaps Darling (Doubleshot clone)", "precio": "$25.000", "descuento": "$48.000", "categoria": "keycaps", "imagen": "keycapsdarling.jpg", "valoraciones": "15" },
+//     { "sku": "07", "nombre": "Kuma 60%", "precio": "$160.000", "descuento": "$180.000", "categoria": "teclados", "imagen": "imgs/kuma60.jpg", "valoraciones": "15" },
+//     { "sku": "08", "nombre": "YMD75 V3 QMK - JAPANESE 75%", "precio": "$180.000", "descuento": "$200.000", "categoria": "teclados", "imagen": "YMD75V3.png", "valoraciones": "15" },
+// ];
 
 window.addEventListener("load", () => {
     div_productos = document.getElementById("productos");
