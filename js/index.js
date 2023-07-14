@@ -25,8 +25,8 @@ window.addEventListener("load", () => {
                         <div class="product-img position-relative overflow-hidden">
                             <img class="img-fluid w-100" src="imgs/${data.items[i].imagen}" alt="">
                             <div class="product-action">
-                                <a class="btnn btnn-outline-dark btnn-square" href=""><i
-                                        class="fa fa-shopping-cart"></i></a>
+                            <a class="btnn btnn-outline-dark btnn-square" href="#" onclick="agregarAlCarrito(${data.items[i].id})"><i class="fa fa-shopping-cart"></i></a>
+
                                 <a class="btnn btnn-outline-dark btnn-square" href=""><i class="far fa-heart"></i></a>
                                 <a class="btnn btnn-outline-dark btnn-square" href=""><i class="fa fa-search"></i></a>
                             </div>
@@ -72,4 +72,14 @@ window.addEventListener("load", () => {
 
 
 });
+function agregarAlCarrito(productoId) {
+    // Obtener los datos del producto desde la base de datos o de alguna otra fuente
+    // ...
+
+    // Agregar el producto al almacenamiento local
+    let productosEnCarrito = localStorage.getItem('productosEnCarrito');
+    productosEnCarrito = productosEnCarrito ? JSON.parse(productosEnCarrito) : [];
+    productosEnCarrito.push({ id: productoId });
+    localStorage.setItem('productosEnCarrito', JSON.stringify(productosEnCarrito));
+}
 

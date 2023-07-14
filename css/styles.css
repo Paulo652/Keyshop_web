@@ -185,3 +185,86 @@ footer {
   padding-top: 70px;
 }
 
+/* ------------------------------------cart */
+#carritoMenu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 1;
+  background-color: white;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#carritoMenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#carritoMenu li {
+  padding: 0.5rem;
+}
+
+#carritoMenu li:hover {
+  background-color: #f5f5f5;
+}
+
+/* Estilo para los productos en el carrito */
+.producto-carrito {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Estilo para la imagen del producto */
+.producto-imagen {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+/* Estilo para la información del producto */
+.producto-info {
+  flex: 1;
+}
+
+/* Estilo para el contenedor del carrito */
+.container {
+  margin-top: 50px;
+}
+
+/* Estilo para los botones del carrito */
+.botones-carrito {
+  margin-top: 20px;
+}
+/* Estilo para los botones de acción en el carrito */
+.boton {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.boton-borrar {
+  background-color: #dc3545;
+  color: white;
+}
+
+.boton-borrar:hover {
+  background-color: #c82333;
+}
+
+.boton-comprar {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.boton-comprar:hover {
+  background-color: #0b5ed7;
+}

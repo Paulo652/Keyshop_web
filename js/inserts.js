@@ -26,7 +26,7 @@ function agregarHeader() {
             <img src="imgs/perfil.png" alt="mdo" width="32" height="32" class="rounded-circle">
           </a>
           <ul class="dropdown-menu text-small">
-            <li><a class="dropdown-item" href="#">Login</a></li>
+            <li><a class="dropdown-item" href="login.html">Login</a></li>
             <li><a class="dropdown-item" href="#">Perfil</a></li>
             <li>
               <hr class="dropdown-divider">
@@ -35,7 +35,7 @@ function agregarHeader() {
           </ul>
         </div>
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"></ul>
-        <li><a href="#" class="nav-link px-2 link-body-emphasis"><span class="material-symbols-outlined">
+        <li><a href="carrito.html" class="nav-link px-2 link-body-emphasis"><span class="material-symbols-outlined">
               shopping_cart
             </span></a></li>
         </ul>
